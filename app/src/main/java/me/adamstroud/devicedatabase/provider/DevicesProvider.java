@@ -101,7 +101,7 @@ public class DevicesProvider extends ContentProvider {
 
     @Override
     public boolean onCreate() {
-        helper = DevicesOpenHelper.getInstance(getContext());
+        helper = DevicesOpenHelper.getInstance2(getContext());
         return true;
     }
 

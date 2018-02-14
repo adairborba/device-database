@@ -46,7 +46,7 @@ import me.adamstroud.devicedatabase.BuildConfig;
 
     private static DevicesOpenHelper instance;
 
-    public synchronized static DevicesOpenHelper getInstance(Context ctx) {
+    public synchronized static DevicesOpenHelper getInstance2(Context ctx) {
         if (instance == null) {
             instance = new DevicesOpenHelper(ctx.getApplicationContext());
         }
